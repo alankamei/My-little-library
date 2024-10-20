@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.whl
+*.pyc
+
+# Django
+*.log
+*.pot
+media/
+db.sqlite3
+
+# Virtual Environment
+venv/
+ 
+# IDEs and Editors
+.idea/
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Test and coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.log

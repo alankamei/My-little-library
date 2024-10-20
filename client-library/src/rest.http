@@ -1,0 +1,28 @@
+# POST http://localhost:8000/api/click-log/
+# Authorization: Bearer <your_access_token>
+# Content-Type: application/json
+
+# {
+#     "book": 5
+# }
+
+
+# POST http://localhost:8000/api/login/
+# Content-Type: application/json
+
+# {
+#   "email": "alan@gmail.com",
+#   "password": "alan"
+# }
+
+POST http://localhost:8000/api/token/refresh/
+Content-Type: application/json
+
+{
+  "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyODkyNDU3NiwiaWF0IjoxNzI4ODM4MTc2LCJqdGkiOiJlYzQ4NGUwOTRlN2U0NGM1YmJlNmVhNDYyMTYwODY1ZSIsInVzZXJfaWQiOjE2fQ.DW0BAlN6ylnA087vefnjvnsLnfo-ptHdOkgf4BfFMeg"
+}
+
+
+
+
+

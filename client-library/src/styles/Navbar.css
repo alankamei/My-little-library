@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Add padding for better spacing */
+    background-color: teal; /* Dark background color */
+    color: white; /* Text color */
+    padding: 10px 40px;
+}
+
+.logo {
+    font-size: 24px; /* Larger font for the logo */
+    font-weight: bold; /* Bold text */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    outline: none; /* Remove outline on focus */
+    width: 350px;
+    height: 30px;
+    color: teal;
+}
+
+.search-icon {
+    margin-left: 5px; /* Space between input and icon */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.nav-link {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Padding around the link */
+    border-radius: 4px; /* Rounded corners for hover effect */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+}
+
+.search-button {
+    color: white; /* Same color as nav links */
+    background: rgb(172, 164, 164); /* Background color */
+    border: none; /* Remove border */
+    padding: 8px 8px; /* Similar padding to nav links */
+    border-radius: 10px; /* Rounded corners for hover effect */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    height: 30px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.search-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+}
+
+

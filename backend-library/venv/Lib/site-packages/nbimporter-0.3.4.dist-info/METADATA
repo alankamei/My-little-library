@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nbimporter
+Version: 0.3.4
+Summary: Import IPython notebooks as modules
+Home-page: https://github.com/grst/nbimporter
+Author: Gregor Sturm
+Author-email: mail@gregor-sturm.de
+License: BSD 3-clause
+Platform: UNKNOWN
+
+UNKNOWN
+
+

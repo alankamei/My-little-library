@@ -1,0 +1,61 @@
+.book-details {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 2fr; /* Two columns: left takes 1 part, right takes 2 parts */
+    gap: 30px; /* Space between columns */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Border around the book details */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.leftdiv, .rightdiv {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; /* Center content vertically */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Border for visual separation */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.leftdiv:hover,
+.rightdiv:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.leftdiv img {
+    max-width: 200px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Round image corners */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+
+
+.rightdiv p {
+    margin: 5px 0; /* Space between paragraphs */
+    font-size: 16px; /* Set a standard font size */
+    color: #555; /* Slightly darker text color for readability */
+}
+
+.book-details button {
+    margin-top: 10px; /* Add space above the button */
+    padding: 5px 5px; /* Padding for button */
+    background-color: teal; /* Button color */
+    color: white; /* Text color for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round button corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    width: 110px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.book-details button:hover {
+    background-color: white; /* Darker color on hover */
+    color: teal;
+}
